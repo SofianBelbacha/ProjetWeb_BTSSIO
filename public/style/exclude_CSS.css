@@ -1,0 +1,39 @@
+.exclude-bootstrap-navbar .navbar {
+    --bs-navbar-padding-x: initial;
+    --bs-navbar-padding-y: initial;
+    --bs-navbar-color: initial;
+    --bs-navbar-hover-color: initial;
+    --bs-navbar-disabled-color: initial;
+    --bs-navbar-active-color: initial;
+    --bs-navbar-brand-padding-y: initial;
+    --bs-navbar-brand-margin-end: initial;
+    --bs-navbar-brand-font-size: initial;
+    --bs-navbar-brand-color: initial;
+    --bs-navbar-brand-hover-color: initial;
+    --bs-navbar-nav-link-padding-x: initial;
+    --bs-navbar-toggler-padding-y: initial;
+    --bs-navbar-toggler-padding-x: initial;
+    --bs-navbar-toggler-font-size: initial;
+    --bs-navbar-toggler-icon-bg: initial;
+    --bs-navbar-toggler-border-color: initial;
+    --bs-navbar-toggler-border-radius: initial;
+    --bs-navbar-toggler-focus-width: initial;
+    --bs-navbar-toggler-transition: initial;
+    position: static;
+    display: block;
+    flex-wrap: initial;
+    align-items: initial;
+    justify-content: initial;
+    padding: initial;
+}
+
+/* Réinitialiser ou annuler les styles du body Bootstrap à l'intérieur de '.exclude-bootstrap-body' */
+.exclude-bootstrap-body body {
+    font-family: initial !important;
+    font-size: initial!important;
+    font-weight: initial!important;
+    line-height: initial !important;
+    color: initial !important;
+    text-align: initial!important;
+    -webkit-text-size-adjust: initial!important;
+}

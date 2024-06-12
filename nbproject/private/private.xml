@@ -4,10 +4,11 @@
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
             <file>file:/C:/wamp64/www/BelbachaBoutiqueV2/application/modeles/gestion_boutique.class.php</file>
+            <file>file:/C:/wamp64/www/BelbachaBoutiqueV2/libs/email.class.php</file>
             <file>file:/C:/wamp64/www/BelbachaBoutiqueV2/application/controleurs/ControleurIdentification.class.php</file>
             <file>file:/C:/wamp64/www/BelbachaBoutiqueV2/application/vues/v_inscription.inc.php</file>
             <file>file:/C:/wamp64/www/BelbachaBoutiqueV2/configs/mysql_config.class.php</file>
-            <file>file:/C:/wamp64/www/BelbachaBoutiqueV2/index.php</file>
+            <file>file:/C:/wamp64/www/BelbachaBoutiqueV2/application/controleurs/ControleurContact.class.php</file>
         </group>
     </open-files>
 </project-private>

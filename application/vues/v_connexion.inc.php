@@ -31,10 +31,10 @@
                         <h3>Connectez vous pour enter</h3>
                         <form class="row-justifys login_form" action="index.php?controleur=Identification&action=verifierConnexion" method="post" id="contactForm" novalidate="novalidate">
                             <div class="placement5 placement form-group">
-                                <input type="text" class="form-control" id="user" name="user" placeholder="Username" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Username'">
+                                <input type="text" class="form-control" id="user" name="username" placeholder="Username" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Username'">
                             </div>
                             <div class="placement5 placement form-group">
-                                <input type="password" class="form-control" id="pass" name="passe" placeholder="Password" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Password'">
+                                <input type="password" class="form-control" id="pass" name="mdp" placeholder="Password" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Password'">
                             </div>
                             <div class="placement5 placement form-group">
                                 <div class="creat_account">

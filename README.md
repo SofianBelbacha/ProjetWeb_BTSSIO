@@ -22,24 +22,6 @@ Pour cloner et exécuter ce projet localement, veuillez suivre les étapes ci-de
 
 3. Configurez votre base de données MySQL :
 
-Importez le fichier belbachaboutiquehardware.sql dans votre Gestionnaire de base de données (MySQL conséiller).
+Importez le fichier belbachaboutiquehardware.sql dans votre Gestionnaire de base de données MySQL .
 Modifiez le fichier config/mysql-config.class.php avec les informations de connexion de votre base de données.
 
-
-
-ProjetWeb_BTSSIO/
-├── application/
-│   ├── controleurs/
-│   ├── modeles/
-│   └── Vues/
-├── configs/
-├── libs/
-│   ├── ajax/
-│   ├── PHPMailer-master/
-│   └── webservice/
-├── public/
-│   ├── style/
-│   ├── js/
-│   └── image/
-└── README.md
-└── index.php

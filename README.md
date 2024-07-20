@@ -20,11 +20,8 @@ Ce projet est un site web e-commerce développé dans le cadre de mon projet de 
 
 ## Installation
 
-2. Configurez votre serveur web (Apache, Nginx, etc.) pour servir le projet.
-
-3. Configurez le SGBD MySQL :
-
-4.Importez le fichier belbachaboutiquehardware.sql dans votre Gestionnaire de base de données MySQL .
-
-5.Modifiez le fichier config/mysql-config.class.php avec les informations de connexion de votre base de données.
+1. Configurez votre serveur web (Apache, Nginx, etc.) pour servir le projet.
+2. Configurez le SGBD MySQL.
+3.Importez le fichier belbachaboutiquehardware.sql dans votre Gestionnaire de base de données MySQL .
+4.Modifiez le fichier config/mysql-config.class.php avec les informations de connexion de votre base de données.
 

@@ -1,7 +1,7 @@
 # Projet de Fin d'Année BTS - Site Web E-commerce
 
 ## Description
-Ce projet est un site web e-commerce développé dans le cadre de mon projet de fin d'année de BTS. Il permet aux utilisateurs de parcourir des produits, d'ajouter des articles à leur panier et de finaliser leurs achats. Le site est construit en utilisant HTML, CSS, JavaScript, PHP (suivant le modèle MVC), et utilise les frameworks Bootstrap et jQuery pour améliorer l'expérience utilisateur.
+Ce projet est un site web e-commerce développé dans le cadre de mon projet de fin d'année de BTS. Ce site vise à offrir une expérience d'achat en ligne fluide et intuitive, permettant aux utilisateurs de naviguer aisément à travers une large gamme de produits.
 
 ## Fonctionnalités
 - Parcourir les produits par catégories
@@ -11,17 +11,20 @@ Ce projet est un site web e-commerce développé dans le cadre de mon projet de 
 - Authentification des utilisateurs (inscription et connexion)
 - Interface d'administration pour gérer les produits et les commandes
 
+### Technologies utilisées :
+- **HTML, CSS, JavaScript** : Pour la structure, le style et les interactions du site web.
+- **PHP** : Utilisé côté serveur, suivant le modèle **MVC (Modèle-Vue-Contrôleur)** pour une architecture claire et modulable. Ce modèle permet de séparer la logique de l'application, la gestion des données et l'affichage, ce qui facilite la maintenance et l'évolution du site.
+- **Librairie** :
+  - **jQuery** : Pour simplifier les manipulations du DOM et les appels AJAX, améliorant ainsi la réactivité et la fluidité des interactions utilisateur.
+
+
 ## Installation
-Pour cloner et exécuter ce projet localement, veuillez suivre les étapes ci-dessous :
 
-1. Clonez le dépôt :
-   ```bash
-   git clone https://github.com/SofianBelbacha/ProjetWeb_BTSSIO.git
+2. Configurez votre serveur web (Apache, Nginx, etc.) pour servir le projet.
 
-2. Configurez votre serveur web (Apache, Nginx, etc.) pour servir le projet. Assurez-vous que le répertoire public est le répertoire racine de votre serveur web.
+3. Configurez le SGBD MySQL :
 
-3. Configurez votre base de données MySQL :
+4.Importez le fichier belbachaboutiquehardware.sql dans votre Gestionnaire de base de données MySQL .
 
-Importez le fichier belbachaboutiquehardware.sql dans votre Gestionnaire de base de données MySQL .
-Modifiez le fichier config/mysql-config.class.php avec les informations de connexion de votre base de données.
+5.Modifiez le fichier config/mysql-config.class.php avec les informations de connexion de votre base de données.
 
